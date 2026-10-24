@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Madhumitha | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Madhumitha, a computer science student building full stack web apps.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#top">K Madhumitha</a>
+  <nav aria-label="Main">
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navList">Menu</button>
+    <ul id="navList" class="nav-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="theme-btn" id="themeBtn" aria-label="Switch to dark mode">Dark</button>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <h1>Hi! <br>I'm K Madhumitha<br> I build web apps<br>people actually use.</h1>
+    <p class="hero-sub">Full stack developer working with MongoDB, Express, React and Node. I ship projects for real clients and competitions alongside my degree.</p>
+    <p class="hero-actions"><a class="btn" href="#projects">See my projects</a> <a class="btn ghost" href="#contact">Get in touch</a></p>
+  </section>
+
+  <section id="about" class="block">
+    <h2>About</h2>
+    <div class="about-grid">
+      <p>Hi! I'm K Madhumitha, a B.E. Computer Science student based in India. I like taking an idea from a rough sketch to a deployed app, covering the database, the API and the interface.</p>
+      <p>Beyond web development I've done research work on vision-based satellite pose estimation at ISRO and built AI tools such as a grammar correction tool and a voice-enabled translator during an AI internship.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="block">
+    <h2>Skills</h2>
+    <div class="skill-groups">
+      <div><h3>Frontend</h3><ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li></ul></div>
+      <div><h3>Backend</h3><ul class="chips"><li>Node.js</li><li>Express</li><li>REST APIs</li><li>MongoDB</li></ul></div>
+      <div><h3>AI and vision</h3><ul class="chips"><li>Python</li><li>YOLOv8</li><li>RF-DETR</li></ul></div>
+      <div><h3>Tools</h3><ul class="chips"><li>Git and GitHub</li><li>VS Code</li><li>Chrome DevTools</li></ul></div>
+    </div>
+  </section>
+
+  <section id="projects" class="block">
+    <h2>Projects</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter" data-filter="client" aria-pressed="false">Client work</button>
+      <button class="filter" data-filter="competition" aria-pressed="false">Competition</button>
+      <button class="filter" data-filter="personal" aria-pressed="false">Personal</button>
+    </div>
+    <div class="project-list">
+      <article class="project" data-category="personal">
+        <h3>NovelNest</h3>
+        <p>A digital publishing web app where readers can browse a library of books and writers can publish their work.</p>
+        <p class="tech">Tech: React, Node.js, Express, MongoDB</p>
+        <p class="links"><a href="https://github.com/k-madhumithaa/NovelNest" target="_blank" rel="noopener">GitHub</a></p>
+      </article>
+      <article class="project" data-category="client">
+        <h3>Artville Custom Gifts</h3>
+        <p>A web app for a Bengaluru custom gifts and art studio, so customers can explore the work and request personalised pieces.</p>
+        <p class="tech">Tech: React, Node.js, Express, MongoDB</p>
+        <p class="links"><a href="https://github.com/k-madhumithaa/Artville-art" target="_blank" rel="noopener">GitHub profile</a></p>
+      </article>
+      <article class="project" data-category="competition">
+        <h3>KSP Crime Intelligence</h3>
+        <p>An AI-assisted police case management platform built for the KSP Datathon 2026.</p>
+        <p class="tech">Tech: Full stack web, AI/ML</p>
+        <p class="links"><a href="https://github.com/k-madhumithaa" target="_blank" rel="noopener">GitHub profile</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="block">
+    <h2>Contact</h2>
+    <p class="contact-lead">Have a project or an opportunity in mind? Write to me.</p>
+    <ul class="contact-list">
+      <li><a href="mailto:madhumithakarthikeyan2005@gmail.com">Email</a></li>
+      <li><a href="https://github.com/k-madhumithaa" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/k-madhumitha-40b920295/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer"><p>&copy; <span id="year">2026</span> K Madhumitha</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
